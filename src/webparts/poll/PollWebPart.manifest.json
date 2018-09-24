@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "59c45e54-da35-4453-a352-8da6c3b2527f",
+  "alias": "PollWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Poll" },
+    "description": { "default": "Poll description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+    }
+  }]
+}

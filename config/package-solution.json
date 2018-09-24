@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-poll-asset-solution-client-side-solution",
+    "id": "53cfce45-5a74-4430-84ec-2c80eea3ea3f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "features": [
+      {
+        "title": "react-poll-asset-solution-client-side-solution",
+        "description": "Poll Webpart solution will allow you to create quick polls",
+        "id": "61CFB2FE-5363-49BC-94E8-569E5916B0B3",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ],
+          "elementFiles": [
+            "schema.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-poll-asset-solution.sppkg"
+  }
+}

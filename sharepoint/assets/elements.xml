@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+   <!-- <Field ID="{2230919A-F8F6-4440-A052-0D0C128D7AA0}"
+        Name="Votes"
+        DisplayName="Votes"
+        Type="Number"
+        Decimals="0"
+        Required="TRUE"
+        Group="Quick Poll Columns" />
+
+   <Field ID="{5A5BBBC0-6E8C-4B52-83DB-45BE86B28E74}"
+        Name="PollID"
+        DisplayName="PollID"
+        Type="Text"
+        Required="TRUE"
+        Group="Quick Poll Columns">
+   </Field> -->
+
+   <!-- <ContentType ID="0x01000F970CF10DB741D5ABC7B4E712054E9E"
+           Name="Quick Poll" 
+           Group="Quick Poll Content Type" 
+           Description="Quick Poll content type from web part solution">
+       <FieldRefs>
+           <FieldRef ID="{2230919A-F8F6-4440-A052-0D0C128D7AA0}" /> 
+           <FieldRef ID="{5A5BBBC0-6E8C-4B52-83DB-45BE86B28E74}" />
+       </FieldRefs>
+   </ContentType>  -->
+
+   <ListInstance 
+           CustomSchema="schema.xml"
+           FeatureId="00bfea71-de22-43b2-a848-c05709900100"
+           Title="Quick Poll" 
+           Description="This list records all the Polls and its results"
+           TemplateType="100"
+           Url="Lists/QuickPoll">
+   </ListInstance>
+
+</Elements>

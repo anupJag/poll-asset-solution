@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.6.0",
+    "libraryName": "react-poll-asset-solution",
+    "libraryId": "53cfce45-5a74-4430-84ec-2c80eea3ea3f",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
